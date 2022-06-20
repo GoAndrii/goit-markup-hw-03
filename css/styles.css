@@ -51,8 +51,6 @@ ul {
 
 .header-pad{
     display: flex;
-            padding-top: 24px;
-            padding-bottom: 25px;
             align-items: center;
 }
 
@@ -115,8 +113,14 @@ ul {
     margin-right: 50px;
 }
 
-.nav-link{
-    margin-right: 331px;
+.nav-links{
+    margin-left: auto;
+}
+
+.link-a{
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .active{
@@ -194,9 +198,12 @@ ul {
 
 .main-pad{
         display:flex;
-            padding-bottom: 94px;
-            padding-top: 94px;
             align-items: center;
+}
+
+.pading{
+    padding-bottom: 94px;
+    padding-top: 94px;
 }
 
 .list-spot{
@@ -251,7 +258,7 @@ ul {
     text-align: center;
 }
 
-.work-pad{
+.section-people{
     padding-bottom: 94px;
 }
 
@@ -262,9 +269,6 @@ ul {
 
 .user-fons{
     background-color:var(--user-fons-color);
-}
-
-.people-pad{
     padding-top: 94px;
     padding-bottom: 94px;
 }
@@ -319,6 +323,8 @@ ul {
 
 .footer-fons{
     background-color:var(--box-fon-color);
+    padding-top: 60px;
+    padding-bottom: 60px;
     
 }
 
@@ -334,12 +340,6 @@ ul {
         letter-spacing: 0.03em;
         display: inline-block;
         margin-bottom: 20px;
-}
-
-.footer-conteiner{
-    display: block;
-    padding-top: 60px;
-    padding-bottom: 60px;
 }
 
 .address{
@@ -385,9 +385,9 @@ ul {
     margin-bottom: 50px;
 }
 
-.port-pag{
+.section-port{
     padding-top: 94px;
-    padding-bottom: 94px;
+        padding-bottom: 94px;
 }
 
 .spot-no .item:not(:last-child){
@@ -411,6 +411,7 @@ ul {
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 24px;
+    padding-right: 24px;
     border: 1px solid #EEEEEE;
 }
 
