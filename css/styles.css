@@ -159,7 +159,7 @@ ul {
     margin: 0 auto;
     width:696px;
         margin-top: 0;
-         padding-bottom: 30px;
+         margin-bottom: 30px;
 
         font-weight: 900;
         font-size: 44px;
@@ -194,10 +194,17 @@ ul {
     display: block;
 }
 
+
+.main-pad{
+        display: flex;
+        al
+            padding-bottom: 94px;
+            padding-top: 94px;
+
+}
+
 .list-spot{
-    display:flex;
-    padding-bottom: 94px;
-    padding-top: 94px;
+    display: flex;
 }
 
 .spot-list:not(:last-child){
