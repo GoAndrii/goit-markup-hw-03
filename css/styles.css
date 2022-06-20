@@ -50,8 +50,10 @@ ul {
 }
 
 .header-pad{
+    display: flex;
             padding-top: 24px;
             padding-bottom: 25px;
+            align-items: center;
 }
 
 .header-fons{
@@ -97,11 +99,6 @@ ul {
     display: flex;
 }
 
-/* 
-.nav{
-        display: flex;
-        align-items: center;
-} */
 
 .header-fons .container
 .header-fon .container{
@@ -196,15 +193,16 @@ ul {
 
 
 .main-pad{
-        display: flex;
-        al
+        display:flex;
             padding-bottom: 94px;
             padding-top: 94px;
+            align-items: center;
 
 }
 
 .list-spot{
     display: flex;
+    align-items: center;
 }
 
 .spot-list:not(:last-child){
